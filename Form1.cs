@@ -184,6 +184,14 @@ namespace TicTacGame
                 GameOver = true;
                 Winner = "Player2";
             }
+            // Ничья
+            if (!GameOver && button1_1.Text != "" && button1_2.Text != "" && button1_3.Text != ""
+                && button2_1.Text != "" && button2_2.Text != "" && button2_3.Text != ""
+                && button3_1.Text != "" && button3_2.Text != "" && button3_3.Text != "")
+            {
+                GameOver = true;
+                Winner = "Draw";
+            }
         }
         private void ButtonClick(object sender, EventArgs e)
         {
@@ -203,6 +211,9 @@ namespace TicTacGame
                                 break;
                             case "Player2":
                                 WinnerLabel.Text = "Player2";
+                                break;
+                            case "Draw":
+                                WinnerLabel.Text = "Draw";
                                 break;
                         }
                     }
