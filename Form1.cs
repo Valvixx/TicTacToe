@@ -18,23 +18,19 @@ namespace TicTacGame
         {
             InitializeComponent();
         }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
-
         private void label1_MouseEnter(object sender, EventArgs e)
         {
 
         }
-
         private void label1_MouseLeave(object sender, EventArgs e)
         {
 
         }
         public int click = 1;
-
         private void CheckSign(object sender)
         {
             if (sender is Button)
