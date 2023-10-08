@@ -220,5 +220,32 @@ namespace TicTacGame
                 }
             }
         }
+        private void RestartButton_Click(object sender, EventArgs e)
+        {
+            GameOver = false;
+            Winner = "";
+            click = 1;
+            button1_1.Text = "";
+            button1_2.Text = "";
+            button1_3.Text = "";
+            button2_1.Text = "";
+            button2_2.Text = "";
+            button2_3.Text = "";
+            button3_1.Text = "";
+            button3_2.Text = "";
+            button3_3.Text = "";
+
+            button1_1.BackColor = Color.Indigo;
+            button1_2.BackColor = Color.Indigo;
+            button1_3.BackColor = Color.Indigo;
+            button2_1.BackColor = Color.Indigo;
+            button2_2.BackColor = Color.Indigo;
+            button2_3.BackColor = Color.Indigo;
+            button3_1.BackColor = Color.Indigo;
+            button3_2.BackColor = Color.Indigo;
+            button3_3.BackColor = Color.Indigo;
+
+            WinnerLabel.Text = "";
+        }
     }
 }

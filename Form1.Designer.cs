@@ -71,6 +71,7 @@ namespace TicTacGame
             this.RestartButton.TabIndex = 26;
             this.RestartButton.Text = "Restart";
             this.RestartButton.UseVisualStyleBackColor = false;
+            this.RestartButton.Click += new System.EventHandler(this.RestartButton_Click);
             // 
             // label1
             // 
