@@ -123,6 +123,7 @@ namespace TicTacGame
             this.button3_3.Size = new System.Drawing.Size(100, 100);
             this.button3_3.TabIndex = 22;
             this.button3_3.UseVisualStyleBackColor = false;
+            this.button3_3.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button3_2
             // 
@@ -137,6 +138,7 @@ namespace TicTacGame
             this.button3_2.Size = new System.Drawing.Size(100, 100);
             this.button3_2.TabIndex = 21;
             this.button3_2.UseVisualStyleBackColor = false;
+            this.button3_2.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button3_1
             // 
@@ -151,6 +153,7 @@ namespace TicTacGame
             this.button3_1.Size = new System.Drawing.Size(100, 100);
             this.button3_1.TabIndex = 20;
             this.button3_1.UseVisualStyleBackColor = false;
+            this.button3_1.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button2_3
             // 
@@ -165,6 +168,7 @@ namespace TicTacGame
             this.button2_3.Size = new System.Drawing.Size(100, 100);
             this.button2_3.TabIndex = 19;
             this.button2_3.UseVisualStyleBackColor = false;
+            this.button2_3.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button2_2
             // 
@@ -179,6 +183,7 @@ namespace TicTacGame
             this.button2_2.Size = new System.Drawing.Size(100, 100);
             this.button2_2.TabIndex = 18;
             this.button2_2.UseVisualStyleBackColor = false;
+            this.button2_2.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button2_1
             // 
@@ -193,6 +198,7 @@ namespace TicTacGame
             this.button2_1.Size = new System.Drawing.Size(100, 100);
             this.button2_1.TabIndex = 17;
             this.button2_1.UseVisualStyleBackColor = false;
+            this.button2_1.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button1_3
             // 
@@ -207,6 +213,7 @@ namespace TicTacGame
             this.button1_3.Size = new System.Drawing.Size(100, 100);
             this.button1_3.TabIndex = 16;
             this.button1_3.UseVisualStyleBackColor = false;
+            this.button1_3.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button1_2
             // 
@@ -221,6 +228,7 @@ namespace TicTacGame
             this.button1_2.Size = new System.Drawing.Size(100, 100);
             this.button1_2.TabIndex = 15;
             this.button1_2.UseVisualStyleBackColor = false;
+            this.button1_2.Click += new System.EventHandler(this.ButtonClick);
             // 
             // button1_1
             // 
@@ -235,6 +243,7 @@ namespace TicTacGame
             this.button1_1.Size = new System.Drawing.Size(100, 100);
             this.button1_1.TabIndex = 14;
             this.button1_1.UseVisualStyleBackColor = false;
+            this.button1_1.Click += new System.EventHandler(this.ButtonClick);
             // 
             // Form1
             // 

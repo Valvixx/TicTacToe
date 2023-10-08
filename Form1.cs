@@ -5,6 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -32,6 +33,37 @@ namespace TicTacGame
         {
 
         }
+        public int click = 1;
 
+        private void CheckSign(object sender)
+        {
+            if (sender is Button)
+            {
+                Button btn = (Button)sender;
+                if (click % 2 != 0)
+                {
+                    // Player 1
+                    btn.Text = "X";
+                    click++;
+                }
+                else
+                {
+                    // Player 2
+                    btn.Text = "O";
+                    click++;
+                }
+            }
+        }
+        private void ButtonClick(object sender, EventArgs e)
+        {
+            if (sender is Button)
+            {
+                Button btn = (Button)sender;
+                if (btn.Text == "")
+                {
+                    CheckSign(sender);
+                }
+            }
+        }
     }
 }
